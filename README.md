@@ -1,6 +1,72 @@
-Product Company Preparation 🚀
+# Product Company Preparation
 
-🎯 Goal
+## Repository Structure
+
+```
+Preparation/
+├── DSA/
+│   ├── Notes/              ← topic notes and cheat sheets
+│   ├── Resources/          ← PDFs, reference material
+│   └── Problems/           ← solutions organised by pattern
+│       ├── Arrays/
+│       ├── Strings/
+│       ├── Hashing/
+│       ├── TwoPointers/
+│       ├── SlidingWindow/
+│       ├── BinarySearch/
+│       ├── Stack-Queue/
+│       ├── LinkedList/
+│       ├── Trees/
+│       ├── Heaps/
+│       ├── Graphs/
+│       ├── Recursion-Backtracking/
+│       ├── DynamicProgramming/
+│       └── Greedy/
+├── Java/
+│   ├── Notes/
+│   ├── Resources/          ← PDFs, Effective Java, JVM diagrams
+│   ├── Code/
+│   │   ├── OOP/
+│   │   ├── Collections/
+│   │   ├── Streams-Lambdas/
+│   │   ├── Concurrency/
+│   │   └── ModernJava/
+│   └── InterviewPrep/
+├── JavaScript/
+│   ├── Notes/
+│   ├── Resources/          ← MDN cheat sheets, JS guides
+│   ├── Code/
+│   │   ├── Fundamentals/
+│   │   ├── CoreJS/
+│   │   ├── AsyncJS/
+│   │   └── NodeJS/
+│   ├── Projects/           ← small practice projects
+│   └── InterviewPrep/
+├── SystemDesign/
+│   ├── Notes/
+│   ├── Resources/          ← architecture diagrams, PDFs
+│   └── Cases/              ← individual system design write-ups
+├── Selenium/
+│   ├── Notes/
+│   ├── Resources/
+│   └── Code/
+├── Playwright/
+│   ├── Notes/
+│   ├── Resources/
+│   └── Code/
+├── AI-Automation/
+│   ├── Notes/
+│   └── Resources/
+├── CI-CD/
+│   ├── Notes/
+│   └── Resources/
+├── DailyLogs/              ← one file per study day (YYYY-MM-DD.md)
+└── MockInterviews/         ← notes from mock sessions
+```
+
+---
+
+## Goal
 
 Become interview-ready for a strong product-based company by building depth in:
 
@@ -15,40 +81,30 @@ The objective is not to learn everything from scratch. The objective is to reviv
 
 ---
 
-🧠 Current Baseline
+## Current Baseline
 
-Area| Current State| Strategy
-DSA| Previously learned, currently rusty| Revive fundamentals → patterns → interview problems
-Java| Previously strong foundation, currently rusty| Refresh → deepen → interview-level Java
-JavaScript| Beginner / new| Start from fundamentals → core JS → practical development
-System Design| Good conceptual exposure| Refresh and develop interview communication
-AI / Automation / CI-CD| Practical POC experience| Strengthen as an engineering differentiator
+| Area | Current State | Strategy |
+|---|---|---|
+| DSA | Previously learned, currently rusty | Revive fundamentals → patterns → interview problems |
+| Java | Previously strong foundation, currently rusty | Refresh → deepen → interview-level Java |
+| JavaScript | Beginner / new | Start from fundamentals → core JS → practical development |
+| System Design | Good conceptual exposure | Refresh and develop interview communication |
+| AI / Automation / CI-CD | Practical POC experience | Strengthen as an engineering differentiator |
 
-Important
-
-Do not restart Java or DSA from absolute zero.
-
-The goal is to reactivate existing knowledge quickly and identify actual gaps.
-
-JavaScript is different — it is a new skill and should be learned properly from fundamentals.
+> **Important:** Do not restart Java or DSA from absolute zero. The goal is to reactivate existing knowledge quickly and identify actual gaps. JavaScript is different — it is a new skill and should be learned properly from fundamentals.
 
 ---
 
-📅 Study Strategy
+## Study Strategy
 
-Daily Target
+**Daily Target:** 2.5–3 hours/day
 
-2.5–3 hours/day
-
-Weekly Structure
-
+**Weekly Structure:**
 - 6 focused study days
 - 1 review/rest day
-- 70% hands-on
-- 30% learning/theory
+- 70% hands-on, 30% learning/theory
 
-Priority
-
+**Priority Split:**
 1. DSA — 45%
 2. Java — 30%
 3. JavaScript — 25%
@@ -57,214 +113,314 @@ System Design and engineering topics will be layered in as the foundation become
 
 ---
 
-🚀 Week 1 — Reset & Momentum
+## Resources
 
-Day 1
+### DSA
+- [NeetCode Roadmap](https://neetcode.io/roadmap) — structured problem set, highly recommended
+- [LeetCode](https://leetcode.com) — primary practice platform
+- Blind 75 problem list — must-solve for product company interviews
 
-DSA
+### Java
+- [Java 17+ docs](https://docs.oracle.com/en/java/javase/17/docs/api/) — reference for APIs
+- Effective Java (Joshua Bloch) — for depth, not memorization
 
-- Big-O
-- Arrays
-- Strings
+### JavaScript
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — definitive reference
+- [javascript.info](https://javascript.info) — best free resource for learning JS from scratch
+- [Node.js docs](https://nodejs.org/en/docs) — for backend JS
+
+---
+
+## Week 1 — Reset & Momentum
+
+### Day 1
+
+**DSA**
+- Big-O analysis
+- Arrays and Strings
 - Find min/max
 - Frequency counting
 - Prefix sums
 
-Java
+**Java**
+- Classes, Objects, Methods
+- Core collections refresh (List, Set, Map at a high level)
 
-- Classes
-- Objects
-- Methods
-- Core collections refresh
-
-JavaScript
-
-- "var"
-- "let"
-- "const"
-- Primitive types
-- Functions
-- Arrays
-- Objects
+**JavaScript**
+- `var`, `let`, `const` — differences and when to use each
+- Primitive types: string, number, boolean, null, undefined, symbol
+- `typeof`, type coercion basics
+- Basic functions and arrow functions
 
 ---
 
-Day 2
+### Day 2
 
-DSA
-
+**DSA**
 - Hashing
 - HashMap / frequency counting
 - Basic hashing problems
 
-Java
+**Java**
+- `ArrayList`, `LinkedList`, `HashSet`, `HashMap` — when to use each
+- Iterating collections
 
-- List
-- Set
-- Map
-- When to use each
-
-JavaScript
-
-- Arrays
-- Objects
-- Accessing/modifying data
-- Common array operations
+**JavaScript**
+- Arrays — creation, indexing, `push`, `pop`, `shift`, `unshift`, `splice`, `slice`
+- Objects — creation, property access (dot vs bracket), `Object.keys()`, `Object.values()`
+- Template literals and string interpolation
 
 ---
 
-Day 3
+### Day 3
 
-DSA
-
+**DSA**
 - Two pointers
 - Sorted-array problems
 - String problems
 
-Java
+**Java**
+- OOP: Encapsulation, Inheritance, Polymorphism, Abstraction
+- `abstract` class vs `interface`
 
-- OOP
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Abstraction
-
-JavaScript
-
-- Functions
-- Function expressions
-- Arrow functions
+**JavaScript**
+- Functions: declarations vs expressions vs arrow functions
 - Callbacks
+- Scope: `var` function scope vs `let`/`const` block scope
+- Hoisting basics
 
 ---
 
-Day 4
+### Day 4
 
-DSA
-
+**DSA**
 - Sliding window
 - Fixed-size window
 - Variable-size window
 
-Java
-
+**Java**
 - Generics
-- Exceptions
-- Comparable
-- Comparator
+- `Comparable` vs `Comparator`
+- Exception handling: checked vs unchecked, `try-catch-finally`
 
-JavaScript
-
-- "map()"
-- "filter()"
-- "reduce()"
+**JavaScript**
+- `map()`, `filter()`, `reduce()`
+- `find()`, `some()`, `every()`, `flat()`, `flatMap()`
+- Destructuring: arrays and objects
+- Spread (`...`) and Rest parameters
 
 ---
 
-Day 5
+### Day 5
 
-DSA
-
+**DSA**
 - Stack
 - Queue
-- Monotonic-stack introduction
+- Monotonic stack introduction
 
-Java
+**Java**
+- Lambdas and functional interfaces (`Predicate`, `Function`, `Consumer`, `Supplier`)
+- Streams: `filter`, `map`, `collect`, `sorted`, `distinct`
+- `Optional`
 
-- Lambdas
-- Functional interfaces
-- Streams
-
-JavaScript
-
-- Asynchronous JavaScript
-- Promises
-- Basic "async/await"
+**JavaScript**
+- Closures — what they are and why they matter
+- `this` keyword — how it behaves in different contexts
+- Promises basics
+- `async/await`
 
 ---
 
-Day 6
+### Day 6
 
-DSA
-
+**DSA**
 - Mixed interview problems
 - Review mistakes
-- Timed problem solving
+- Timed problem solving (20–25 min per problem)
 
-Java
-
+**Java**
 - Interview-oriented coding exercises
+- Write at least 2 problems from scratch without reference
 
-JavaScript
-
-- Build a small console-based program
+**JavaScript**
+- Build a small console-based program (e.g., a todo list or word frequency counter)
 
 ---
 
-Day 7
+### Day 7 — Review / Rest
 
-Review / Rest
-
-- Review mistakes
+- Review mistakes from the week
 - Identify weak topics
 - Update revision queue
 - No heavy new learning
 
 ---
 
-📊 Progress Tracker
+## Week 2 — Depth & Patterns
 
-Week| DSA| Java| JavaScript| Status
-Week 1| Fundamentals + basic patterns| Core refresh| Fundamentals| ⬜
-Week 2| Linked List + Binary Search| Collections + modern Java| Core JS| ⬜
-Week 3| Trees + Heaps| Streams + JVM basics| Async + browser concepts| ⬜
-Week 4| Recursion + Backtracking| Concurrency| Node.js basics| ⬜
-Week 5+| Graphs + Greedy + DP| Advanced Java| Node.js + practical development| ⬜
+### Day 1
+
+**DSA**
+- Binary Search: standard, on answer, rotated arrays
+
+**Java**
+- String manipulation: `StringBuilder`, `charAt`, `substring`, `indexOf`, `split`, `trim`
+- String immutability and the String pool
+
+**JavaScript**
+- Prototypes and prototype chain
+- `class` syntax, constructors, `extends`, `super`
+- Modules: `import` / `export`
 
 ---
 
-🧩 DSA Roadmap
+### Day 2
 
-Phase 1 — Foundations
+**DSA**
+- Linked List: singly linked list operations (insert, delete, reverse)
+- Slow and fast pointer pattern
 
-- Big-O
-- Arrays
-- Strings
+**Java**
+- `equals()` and `hashCode()` contract
+- `Comparable` and custom sorting
+- `Collections.sort()`, `Arrays.sort()`
+
+**JavaScript**
+- Event loop, call stack, microtask queue, macrotask queue
+- Execution context and scope chain
+- `setTimeout`, `setInterval` behavior
+
+---
+
+### Day 3
+
+**DSA**
+- Linked List problems: cycle detection, merge two sorted lists, find middle
+- Stack problems: valid parentheses, min stack
+
+**Java**
+- Streams: groupingBy, partitioningBy, toMap, joining
+- Method references: `Class::method`, `instance::method`
+
+**JavaScript**
+- Promise chaining
+- `Promise.all`, `Promise.allSettled`, `Promise.race`, `Promise.any`
+- Error handling with `async/await` using `try/catch`
+
+---
+
+### Day 4
+
+**DSA**
+- Binary Trees: traversals (inorder, preorder, postorder) — iterative and recursive
+- BFS and DFS on trees
+
+**Java**
+- Multithreading basics: `Thread`, `Runnable`, `Callable`
+- `synchronized`, `volatile`
+
+**JavaScript**
+- Browser fundamentals: DOM, `document.querySelector`, event listeners
+- `fetch` API and working with JSON responses
+- `null` vs `undefined`, nullish coalescing (`??`), optional chaining (`?.`)
+
+---
+
+### Day 5
+
+**DSA**
+- Binary Search Trees: insert, search, delete, validate BST
+- Heaps and Priority Queue: min-heap, max-heap, `k` largest/smallest
+
+**Java**
+- `ExecutorService`, thread pools
+- `Future`, `CompletableFuture` basics
+
+**JavaScript**
+- Node.js: what it is and how it differs from browser JS
+- `require` vs `import/export` (CommonJS vs ESM)
+- Basic file I/O with `fs` module
+
+---
+
+### Day 6
+
+**DSA**
+- Mixed problems: binary search, linked list, tree
+- Timed practice: 2 problems in 45 minutes
+
+**Java**
+- Full mock problem: implement a data structure or algorithm from scratch
+
+**JavaScript**
+- Build a small Node.js script: read a file, process data, write output
+
+---
+
+### Day 7 — Review / Rest
+
+- Review all week mistakes
+- Update revision queue
+- Identify the 2–3 weakest areas to focus on next week
+
+---
+
+## Progress Tracker
+
+| Week | DSA | Java | JavaScript | Status |
+|---|---|---|---|---|
+| Week 1 | Fundamentals + basic patterns | Core refresh | Fundamentals | ⬜ |
+| Week 2 | Linked List + Binary Search + Trees | Collections + Strings + Modern Java | Core JS + Async | ⬜ |
+| Week 3 | Heaps + Recursion + Backtracking | Streams + JVM basics + Concurrency | Browser + Node.js | ⬜ |
+| Week 4 | Graphs: BFS, DFS, Dijkstra | Advanced Java + interview questions | REST APIs + Express | ⬜ |
+| Week 5+ | Greedy + Dynamic Programming | Full interview prep | Practical development | ⬜ |
+
+---
+
+## DSA Roadmap
+
+### Phase 1 — Foundations
+- Big-O analysis
+- Arrays and Strings
 - Hashing
 - Prefix Sum
+- Sorting: Bubble, Selection, Insertion, Merge Sort, Quick Sort (understand, don't memorize)
 
-Phase 2 — Core Patterns
-
+### Phase 2 — Core Patterns
 - Two Pointers
 - Sliding Window
-- Stack
-- Queue
 - Binary Search
+- Stack and Queue
+- Monotonic Stack
 
-Phase 3 — Data Structures
-
+### Phase 3 — Data Structures
 - Linked Lists
-- Trees
-- Binary Search Trees
-- Heaps
-- Priority Queue
+- Trees and Binary Search Trees
+- Heaps and Priority Queue
+- Tries (optional but useful)
 
-Phase 4 — Advanced Problem Solving
-
+### Phase 4 — Advanced Problem Solving
 - Recursion
 - Backtracking
-- Graphs
+- Graphs: BFS, DFS, topological sort, union-find
 - Greedy
-- Dynamic Programming
+- Dynamic Programming: 1D, 2D, knapsack, subsequences
+
+### Phase 5 — Stretch Topics
+- Bit manipulation
+- Intervals
+- Math-based problems
 
 ---
 
-📝 DSA Problem Log
+## DSA Problem Log
 
 Every important problem should be recorded using this structure:
 
+```
 Problem:
 Pattern:
+Platform + link:
 
 Brute Force:
 Optimal Approach:
@@ -273,154 +429,122 @@ Time Complexity:
 Space Complexity:
 
 What I initially thought:
-
 What I missed:
+Similar problems:
 
 Key takeaway:
+```
 
-The objective is not just to count solved problems.
-
-Mistakes and patterns matter more than the raw number.
+The objective is not just to count solved problems. Mistakes and patterns matter more than the raw number.
 
 ---
 
-☕ Java Roadmap
+## Java Roadmap
 
-Phase 1 — Core Java
-
-- OOP
-- Classes / Objects
-- Interfaces
-- Abstract classes
-- Collections
+### Phase 1 — Core Java
+- OOP: classes, objects, interfaces, abstract classes
+- Collections: List, Set, Map, Queue, Deque
 - Generics
-- Exceptions
-- Strings
-- Immutability
-- "equals()"
-- "hashCode()"
+- Exceptions: checked vs unchecked, custom exceptions
+- Strings: immutability, String pool, `StringBuilder`, common methods
+- `equals()`, `hashCode()`, `Comparable`, `Comparator`
 
-Phase 2 — Modern Java
-
-- Lambdas
-- Functional interfaces
-- Streams
-- Optional
+### Phase 2 — Modern Java (Java 8–17+)
+- Lambdas and functional interfaces
+- Streams API
+- `Optional`
 - Method references
-- Modern collection patterns
+- Records (Java 16+)
+- Sealed classes (Java 17+)
 
-Phase 3 — Interview Depth
-
-- JVM architecture
-- Heap / Stack
-- Garbage Collection
-- Memory management
+### Phase 3 — Interview Depth
+- JVM architecture: heap, stack, metaspace
+- Garbage Collection: types, tuning basics
 - Java Memory Model
-- Multithreading
-- Concurrency
-- Synchronization
-- Executors
+- Multithreading: `Thread`, `Runnable`, `Callable`, `Future`
+- Concurrency: `synchronized`, `volatile`, `ReentrantLock`
+- `ExecutorService`, thread pools, `CompletableFuture`
 - Common Java interview questions
 
 ---
 
-🟨 JavaScript Roadmap
+## JavaScript Roadmap
 
-Phase 1 — Fundamentals
+### Phase 1 — Fundamentals
+- Variables (`var`, `let`, `const`), scope, hoisting
+- Data types: primitives and objects
+- Type coercion, `typeof`, `==` vs `===`
+- Operators: arithmetic, logical, ternary, nullish coalescing (`??`)
+- Optional chaining (`?.`)
+- Control flow: conditionals, loops
+- Functions: declarations, expressions, arrow functions
+- Arrays and Objects
+- Destructuring, Spread, Rest
+- Template literals
 
-- Variables
-- Data types
-- Operators
-- Conditionals
-- Loops
-- Functions
-- Arrays
-- Objects
-- Destructuring
-- Spread
-- Rest
-
-Phase 2 — Core JavaScript
-
-- Scope
-- Hoisting
-- Closures
-- "this"
-- Prototypes
-- Classes
-- Modules
-- Event loop
+### Phase 2 — Core JavaScript
+- Scope chain and closures
+- `this` keyword and binding (`call`, `apply`, `bind`)
+- Prototypes and prototype chain
+- Classes: `class`, `extends`, `super`, `static`
+- Modules: `import` / `export`
+- Event loop, call stack, microtask queue
 - Execution context
 
-Phase 3 — Asynchronous JavaScript
+### Phase 3 — Asynchronous JavaScript
+- Callbacks and callback hell
+- Promises: creation, chaining, `.then()`, `.catch()`, `.finally()`
+- `Promise.all`, `Promise.allSettled`, `Promise.race`, `Promise.any`
+- `async/await`
+- Error handling in async code
+- `fetch` API
 
-- Callbacks
-- Promises
-- "async/await"
-- Promise chaining
-- Error handling
-- Fetch
-- APIs
-
-Phase 4 — Practical JavaScript
-
-- Browser fundamentals
-- DOM
-- Events
-- HTTP
-- Node.js
-- npm
-- Express basics
-- REST APIs
+### Phase 4 — Practical JavaScript
+- Browser fundamentals: DOM, events, event delegation
+- HTTP basics
+- Node.js: event loop, modules, `fs`, `path`
+- `npm` and package management
+- Express.js basics
+- Building REST APIs
 
 ---
 
-🏗️ System Design
+## System Design
 
-System design is not starting from zero.
+System design is not starting from zero. Focus on converting existing conceptual understanding into strong interview performance.
 
-Focus on converting existing conceptual understanding into strong interview performance.
-
-Topics
-
-- Requirements gathering
-- Functional vs non-functional requirements
-- Scalability
-- Availability
-- Reliability
+### Topics
+- Requirements gathering: functional vs non-functional requirements
+- Scalability, Availability, Reliability
 - CAP theorem
 - Load balancing
-- Caching
-- Databases
-- SQL vs NoSQL
-- Message queues
-- Event-driven architecture
+- Caching strategies
+- Databases: SQL vs NoSQL, indexing, sharding
+- Message queues and event-driven architecture
 - Microservices
-- API design
-- Authentication / authorization
-- Observability
-- Rate limiting
+- API design: REST, rate limiting, versioning
+- Authentication and authorization
+- Observability: logging, metrics, tracing
 - Distributed systems fundamentals
 
-Practice
+### Interview Framework
 
-For every system design problem:
+For every system design problem, go through:
 
-1. Requirements
+1. Requirements (functional + non-functional)
 2. Scale estimation
 3. API design
 4. High-level architecture
-5. Data storage
-6. Caching
-7. Messaging
-8. Scaling
+5. Data storage and schema
+6. Caching layer
+7. Messaging / async flows
+8. Scaling strategy
 9. Failure handling
-10. Bottlenecks
-11. Trade-offs
+10. Bottlenecks and trade-offs
 
 ---
 
-🤖 Engineering Advantage
+## Engineering Advantage
 
 Maintain and strengthen practical engineering knowledge around:
 
@@ -429,26 +553,23 @@ Maintain and strengthen practical engineering knowledge around:
 - Test automation
 - API automation
 - DevOps concepts
-- Cloud
+- Cloud fundamentals
 - Observability
-- Deployment
-- System design
+- Deployment strategies
 
 The existing AI automation CI/CD POC should eventually become part of the interview/project discussion.
 
 ---
 
-📈 Interview Preparation Roadmap
+## Interview Preparation Roadmap
 
-Stage 1 — Foundation Revival
-
+### Stage 1 — Foundation Revival
 - [ ] Refresh DSA fundamentals
 - [ ] Refresh Java fundamentals
 - [ ] Learn JavaScript fundamentals
 - [ ] Establish daily coding habit
 
-Stage 2 — Problem Solving
-
+### Stage 2 — Problem Solving
 - [ ] 25 DSA problems
 - [ ] 50 DSA problems
 - [ ] 75 DSA problems
@@ -456,30 +577,29 @@ Stage 2 — Problem Solving
 
 Focus on understanding patterns rather than blindly increasing the count.
 
-Stage 3 — Technical Depth
-
+### Stage 3 — Technical Depth
 - [ ] Advanced DSA
 - [ ] Java interview preparation
 - [ ] JavaScript interview preparation
 - [ ] System design revision
 - [ ] Engineering fundamentals
 
-Stage 4 — Interview Mode
-
-- [ ] Timed DSA
+### Stage 4 — Interview Mode
+- [ ] Timed DSA practice
 - [ ] Java coding rounds
-- [ ] JavaScript coding
-- [ ] System design interviews
-- [ ] Mock interviews
-- [ ] Resume/project preparation
-- [ ] Product-company applications
+- [ ] JavaScript coding rounds
+- [ ] System design mock interviews
+- [ ] Full mock interviews (platform or with a peer)
+- [ ] Resume and project preparation
+- [ ] Begin product-company applications
 
 ---
 
-📓 Daily Progress Log
+## Daily Progress Log
 
 Use this format every study day:
 
+```
 ## YYYY-MM-DD
 
 ### DSA
@@ -503,34 +623,30 @@ Questions:
 ### Revision Required
 
 ### Tomorrow
+```
 
 ---
 
-🔁 Revision Queue
+## Revision Queue
 
-DSA
-
+### DSA
 - [ ]
 
-Java
-
+### Java
 - [ ]
 
-JavaScript
-
+### JavaScript
 - [ ]
 
-System Design
-
+### System Design
 - [ ]
 
-Interview Mistakes
-
+### Interview Mistakes
 - [ ]
 
 ---
 
-🎯 Milestones
+## Milestones
 
 - [ ] Complete Week 1
 - [ ] Complete Week 2
@@ -551,16 +667,16 @@ Interview Mistakes
 
 ---
 
-📌 Rules
+## Rules
 
 1. Don't restart from zero.
 2. Code more than you watch.
-3. Attempt DSA problems before seeing solutions.
+3. Attempt every DSA problem before looking at the solution.
 4. Track mistakes, not just solved problems.
 5. Don't endlessly redesign the study plan.
 6. JavaScript starts from fundamentals because it is new.
 7. Repeated mistakes go into the revision queue.
-8. Review weak topics regularly.
+8. Review weak topics at least once a week.
 9. Prefer understanding over memorization.
 10. Consistency beats occasional marathon sessions.
 11. Build practical projects alongside interview preparation.
@@ -568,9 +684,9 @@ Interview Mistakes
 
 ---
 
-🧠 Core Philosophy
+## Core Philosophy
 
-«Think deeply, but don't overthink execution. When the next useful action is clear, do it.»
+> Think deeply, but don't overthink execution. When the next useful action is clear, do it.
 
 The goal is not to become perfect before interviewing.
 
@@ -578,41 +694,29 @@ The goal is to become consistently better, technically strong, and interview-rea
 
 ---
 
-🤝 ChatGPT + GitHub Workflow
+## AI Assistant + GitHub Workflow
 
-This repository is intended to be the source of truth for preparation progress.
+This repository is the source of truth for preparation progress.
 
-When working with ChatGPT:
+When working with an AI assistant (Claude, ChatGPT, etc.):
 
-- Use this README to understand the roadmap.
-- Update progress after meaningful study sessions.
-- Record important DSA mistakes.
-- Add weak topics to the revision queue.
-- Update milestones as they are completed.
-- Adjust the roadmap based on actual progress rather than constantly redesigning it.
+- Share this README to establish context
+- Update progress after meaningful study sessions
+- Record important DSA mistakes in the problem log
+- Add weak topics to the revision queue
+- Update milestones as they are completed
+- Adjust the roadmap based on actual progress rather than constantly redesigning it
 
-Daily command
+**Daily prompt to use:**
 
-When asking ChatGPT for the next task:
-
-«"Give me today's preparation plan based on the GitHub repo."»
-
-The plan should consider:
-
-- Current progress
-- Weak areas
-- Previous mistakes
-- DSA progression
-- Java progression
-- JavaScript progression
-- Interview readiness
+> "Give me today's preparation plan based on my GitHub README. Consider my current progress, weak areas, previous mistakes, and where I am in the DSA / Java / JavaScript roadmap."
 
 ---
 
-🚀 Final Objective
+## Final Objective
 
 Become strong enough to confidently target product-based software engineering roles, with:
 
-Strong DSA + Strong Java + Practical JavaScript + System Design + Real Engineering Experience
+**Strong DSA + Strong Java + Practical JavaScript + System Design + Real Engineering Experience**
 
-and eventually transition from preparation mode into actual interview mode and applications.# Preparation
+Transition from preparation mode into actual interview mode and applications when technically ready — not when you feel perfectly ready.
