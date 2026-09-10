@@ -4,64 +4,29 @@
 
 ```
 Preparation/
-├── DSA/
-│   ├── Notes/              ← topic notes and cheat sheets
-│   ├── Resources/          ← PDFs, reference material
-│   └── Problems/           ← solutions organised by pattern
-│       ├── Arrays/
-│       ├── Strings/
-│       ├── Hashing/
-│       ├── TwoPointers/
-│       ├── SlidingWindow/
-│       ├── BinarySearch/
-│       ├── Stack-Queue/
-│       ├── LinkedList/
-│       ├── Trees/
-│       ├── Heaps/
-│       ├── Graphs/
-│       ├── Recursion-Backtracking/
-│       ├── DynamicProgramming/
-│       └── Greedy/
-├── Java/
-│   ├── Notes/
-│   ├── Resources/          ← PDFs, Effective Java, JVM diagrams
-│   ├── Code/
-│   │   ├── OOP/
-│   │   ├── Collections/
-│   │   ├── Streams-Lambdas/
-│   │   ├── Concurrency/
-│   │   └── ModernJava/
-│   └── InterviewPrep/
-├── JavaScript/
-│   ├── Notes/
-│   ├── Resources/          ← MDN cheat sheets, JS guides
-│   ├── Code/
-│   │   ├── Fundamentals/
-│   │   ├── CoreJS/
-│   │   ├── AsyncJS/
-│   │   └── NodeJS/
-│   ├── Projects/           ← small practice projects
-│   └── InterviewPrep/
-├── SystemDesign/
-│   ├── Notes/
-│   ├── Resources/          ← architecture diagrams, PDFs
-│   └── Cases/              ← individual system design write-ups
-├── Selenium/
-│   ├── Notes/
-│   ├── Resources/
-│   └── Code/
-├── Playwright/
-│   ├── Notes/
-│   ├── Resources/
-│   └── Code/
-├── AI-Automation/
-│   ├── Notes/
-│   └── Resources/
-├── CI-CD/
-│   ├── Notes/
-│   └── Resources/
-├── DailyLogs/              ← one file per study day (YYYY-MM-DD.md)
-└── MockInterviews/         ← notes from mock sessions
+├── Notes/          ← all notes in one place (Java, JS, System Design, Selenium, Playwright, etc.)
+├── Resources/      ← all PDFs, books, cheat sheets, reference material
+├── DSA/            ← problem solutions organised by pattern
+│   ├── Arrays/
+│   ├── Strings/
+│   ├── Hashing/
+│   ├── TwoPointers/
+│   ├── SlidingWindow/
+│   ├── BinarySearch/
+│   ├── Stack-Queue/
+│   ├── LinkedList/
+│   ├── Trees/
+│   ├── Heaps/
+│   ├── Graphs/
+│   ├── Recursion-Backtracking/
+│   ├── DynamicProgramming/
+│   └── Greedy/
+├── Java/           ← Java practice code and exercises
+├── JavaScript/     ← JS practice code and small projects
+├── Selenium/       ← Selenium scripts and automation code
+├── Playwright/     ← Playwright scripts and automation code
+├── SystemDesign/   ← system design case write-ups (one file per problem)
+└── DailyLogs/      ← one markdown file per study day (YYYY-MM-DD.md)
 ```
 
 ---
